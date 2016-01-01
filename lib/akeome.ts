@@ -22,6 +22,6 @@ export default class Akeome {
             }
         }
         console.log("\n\n");
-        console.log("2015回目でもあけおめできませんでした・・・")
+        console.log("${this.year}回目でもあけおめできませんでした・・・")
     }
 }
