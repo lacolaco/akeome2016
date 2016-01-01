@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5"
+    },
+    "filesGlob": [
+        "typings/bundle.d.ts",
+        "index.ts",
+        "lib/**/*.ts"
+    ],
+    "files": [
+        "typings/bundle.d.ts",
+        "index.ts",
+        "lib/akeome.ts"
+    ]
+}

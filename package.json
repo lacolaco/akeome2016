@@ -1,0 +1,26 @@
+{
+  "name": "akeome2016",
+  "version": "1.0.0",
+  "description": "あけましておめでとうございます。",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "$(npm bin)/dtsm install",
+    "start": "node ./index.js",
+    "prestart": "$(npm bin)/tsconfig -u && $(npm bin)/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laco0416/akeome2016.git"
+  },
+  "author": "laco0416",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laco0416/akeome2016/issues"
+  },
+  "homepage": "https://github.com/laco0416/akeome2016#readme",
+  "devDependencies": {
+    "tsconfig-cli": "^0.1.1",
+    "typescript": "^1.7.5",
+    "dtsm": "^0.13.0"
+  }
+}
